@@ -1,17 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
+using Hardcodet.Wpf.TaskbarNotification;
 
 namespace RossQuotes
 {
     /// <summary>
-    /// Interaction logic for App.xaml
+    /// Interaction logic for App.xaml. Check the XAML for comments.
     /// </summary>
     public partial class App : Application
     {
+        private TaskbarIcon mNotifyIcon;
+
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            base.OnStartup(e);
+
+            //create the notifyicon (it's a resource declared in NotifyIconResources.xaml
+            mNotifyIcon = (TaskbarIcon)FindResource("NotifyIcon");
+        }
+
+        protected override void OnExit(ExitEventArgs e)
+        {
+            mNotifyIcon.Dispose(); //the icon would clean up automatically, but this is cleaner
+            base.OnExit(e);
+        }
     }
 }
