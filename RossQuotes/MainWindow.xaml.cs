@@ -67,6 +67,7 @@ namespace RossQuotes
         public MainWindow()
         {
             InitializeComponent();
+            return;
 
             // initialize stuff
             randy = new Random();
