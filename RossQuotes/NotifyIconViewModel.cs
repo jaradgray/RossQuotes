@@ -32,7 +32,7 @@ namespace RossQuotes
         /// <summary>
         /// Hides the main window. This command is only enabled if a window is open.
         /// </summary>
-        public ICommand HodeWindowCommand
+        public ICommand HideWindowCommand
         {
             get
             {
