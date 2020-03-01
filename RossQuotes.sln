@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RossQuotes", "RossQuotes\RossQuotes.csproj", "{9BC00375-6AAD-46CE-A21F-2A3884B6EC2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RossQuotesTests", "NotificationManagerTests\RossQuotesTests.csproj", "{86BE95B7-D4EA-427C-B7CD-2C22B860BA65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BC00375-6AAD-46CE-A21F-2A3884B6EC2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC00375-6AAD-46CE-A21F-2A3884B6EC2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BC00375-6AAD-46CE-A21F-2A3884B6EC2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BC00375-6AAD-46CE-A21F-2A3884B6EC2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86BE95B7-D4EA-427C-B7CD-2C22B860BA65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86BE95B7-D4EA-427C-B7CD-2C22B860BA65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86BE95B7-D4EA-427C-B7CD-2C22B860BA65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86BE95B7-D4EA-427C-B7CD-2C22B860BA65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C02E119E-85C3-4965-9007-F00C8480953C}
+	EndGlobalSection
+EndGlobal
