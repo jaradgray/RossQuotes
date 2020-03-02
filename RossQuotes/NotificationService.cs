@@ -10,7 +10,7 @@ namespace RossQuotes
     public class NotificationService
     {
         // Constants
-        private const int MIN_INTERVAL = 1000 * 60 * 20; // 20 minutes in millis
+        private const int MIN_INTERVAL = 0; // millis
         private const int MAX_INTERVAL = 1000 * 60 * 60 * 7; // 7 hours in millis
 
 
