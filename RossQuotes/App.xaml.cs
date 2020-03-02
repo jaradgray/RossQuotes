@@ -17,6 +17,9 @@ namespace RossQuotes
             // Initialize the notifyicon (it's a resource declared in NotifyIconResources.xaml
             mNotifyIcon = (TaskbarIcon)FindResource("NotifyIcon");
             mNotifyIcon.DataContext = new NotifyIconViewModel();
+
+            // Create a NotificationSerbice to start displaying notifications
+            new NotificationService(mNotifyIcon);
         }
 
         protected override void OnExit(ExitEventArgs e)
