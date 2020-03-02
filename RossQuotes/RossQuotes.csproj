@@ -90,6 +90,7 @@
   <ItemGroup>
     <Compile Include="NotificationManager.cs" />
     <Compile Include="NotificationModel.cs" />
+    <Compile Include="NotificationService.cs" />
     <Compile Include="NotificationUserControl.xaml.cs">
       <DependentUpon>NotificationUserControl.xaml</DependentUpon>
     </Compile>
