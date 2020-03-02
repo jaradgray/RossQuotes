@@ -84,7 +84,7 @@ namespace RossQuotes
             notification.Message = GetRandomQuote(key);
 
             // TODO set notification.Icon
-            System.Drawing.Icon icon = Properties.Resources.icon_ross_128;
+            System.Drawing.Icon icon = GetIconBySender(key);
             notification.Icon = icon;
 
             return notification;
@@ -138,6 +138,24 @@ namespace RossQuotes
             }
 
             return result;
+        }
+
+        /// <summary>
+        /// Returns the notification Icon associated with @sender.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <returns></returns>
+        private System.Drawing.Icon GetIconBySender(string sender)
+        {
+            switch (sender)
+            {
+                case "Bob Ross":
+                    return Properties.Resources.icon_ross_128;
+                case "Rick Steves":
+                    return Properties.Resources.icon_steves_128;
+                default:
+                    return null;
+            }
         }
 
 
