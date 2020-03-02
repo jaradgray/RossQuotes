@@ -71,7 +71,12 @@ namespace RossQuotes
 
 
         // Public methods
-
+        
+        /// <summary>
+        /// Returns a NotificationModel built by choosing a random key from mAllQuotesDictionary and
+        /// a random quote from the key's associated List of quotes from mUnusedQuotesDictionary.
+        /// </summary>
+        /// <returns></returns>
         public NotificationModel GetRandomNotificationModel()
         {
             NotificationModel notification = new NotificationModel();
