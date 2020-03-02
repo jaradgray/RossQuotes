@@ -83,7 +83,7 @@ namespace RossQuotes
             // Get a random quote from key's List in the Dictionary
             notification.Message = GetRandomQuote(key);
 
-            // TODO set notification.Icon
+            // Set notification.Icon based on sender
             System.Drawing.Icon icon = GetIconBySender(key);
             notification.Icon = icon;
 
