@@ -17,6 +17,7 @@ namespace RossQuotes
             // Initialize the notifyicon (it's a resource declared in NotifyIconResources.xaml
             mNotifyIcon = (TaskbarIcon)FindResource("NotifyIcon");
             mNotifyIcon.DataContext = new NotifyIconViewModel();
+            mNotifyIcon.Icon = RossQuotes.Properties.Resources.icon_ross_128;
 
             // Create a NotificationSerbice to start displaying notifications
             new NotificationService(mNotifyIcon);
