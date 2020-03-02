@@ -63,6 +63,16 @@ namespace RossQuotes.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
+        internal static System.Drawing.Icon icon_app_blue {
+            get {
+                object obj = ResourceManager.GetObject("icon_app_blue", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
         internal static System.Drawing.Icon icon_ross_128 {
             get {
                 object obj = ResourceManager.GetObject("icon_ross_128", resourceCulture);
