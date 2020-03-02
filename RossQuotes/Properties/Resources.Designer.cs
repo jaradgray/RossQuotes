@@ -69,5 +69,15 @@ namespace RossQuotes.Properties {
                 return ((System.Drawing.Icon)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon icon_steves_128 {
+            get {
+                object obj = ResourceManager.GetObject("icon_steves_128", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
     }
 }
